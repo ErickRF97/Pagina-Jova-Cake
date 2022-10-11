@@ -87,7 +87,10 @@ header img {
    max-width: 900px;
    height: 150px;
    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16); 
+   display: flex;
+   flex-wrap: wrap;
 }
+
 
 
 .title-h1 {
@@ -124,15 +127,17 @@ header img {
    font-family: "Poppins", sans-serif;
 }
 
-.title-h2 .about-me__social-media  {
-   width: 75%;
-   height: 75%;
-   text-align: left;
-   text-decoration: none;
+.title-h2 .icons-container {
+   font-size: 16px;
+   color: #582D55;
+   background-color: var(--beige);
+   border-radius: 20px;
+   width: 220px;
+   height: 86px;
    display: flex;
-   flex-direction: column;
-   
-
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: space-around;
 }
 
 .title-h2 .about-me__social-media li{
@@ -237,7 +242,7 @@ header img {
    align-items: center;
    align-content: center;
    justify-content: center;
-   margin: 0 auto;
+   margin: 10px auto;
    padding: 15px;
    background-color: #255953;
    border-radius: 15px;
