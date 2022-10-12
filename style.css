@@ -91,8 +91,6 @@ header img {
    flex-wrap: wrap;
 }
 
-
-
 .title-h1 {
    text-align: center;
    justify-content: center;
@@ -128,7 +126,7 @@ header img {
 }
 
 .title-h2 .icons-container {
-   font-size: 16px;
+   font-size: 24px;
    color: #582D55;
    background-color: var(--beige);
    border-radius: 20px;
@@ -138,22 +136,6 @@ header img {
    flex-wrap: wrap;
    justify-content: center;
    align-content: space-around;
-}
-
-.title-h2 .about-me__social-media li{
-   list-style: none;
-   
-}
-
-.title-h2 .about-me__social-media .link-media{
-   text-decoration: none;
-   font-size: 1.8rem;
-   color: #FFF7D9;
-   font-family: Arial, Helvetica, sans-serif;
-   cursor: pointer;
-   text-align: start;
-   
-  
 }
 
 .for-who{
@@ -231,10 +213,8 @@ header img {
    font-size: 2.4rem;
    font-weight: 700;
 }
-
-
-  
-.modality {
+ 
+.modality { 
    display: flex;
    color: #FFF7D9;
    font-size: 1.6rem;
@@ -498,6 +478,45 @@ header img {
    cursor: pointer;
 }
 
+.opinions {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   background-color: beige;
+   width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+   justify-content: center;
+
+}
+
+.opinions .opinions__card{
+   border-radius: 20px;
+   background-color: #A6449F;
+   margin: 15px;
+   padding: 15px;
+   width: 300px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 14px;
+   color: beige;
+}
+.opinions .opinions__card h4{
+   font-size: 20px;
+   font-weight: 700;
+}
+.opinions .opinions__card p img{
+   width: 125px;
+   height: 125px;
+   border-radius: 100%;
+}
+
+.opinions .opinions__card .opinions__card-text{
+   padding: 15px;
+}
+
 footer {
    display: flex;
    width: 100%;
@@ -568,7 +587,6 @@ footer .right {
    padding: 30px;
    }
 }
-
 
 @media (min-width: 940px){
    .title-h2 .about-me__social-media {
