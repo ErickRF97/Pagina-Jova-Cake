@@ -401,6 +401,15 @@ header img {
    justify-content: center;
 }
 
+.video{
+   width: 100%;
+   height: auto;
+   margin: 10px 0;
+   background-color: #A6449F;
+   padding: 15px;
+   display: flex;
+   justify-content: center;
+}
 .how-do{
    display: flex;
    width: 95%;
@@ -640,6 +649,12 @@ footer .right {
    margin: 0 auto;
    
 }
+@media (max-width: 600px) {
+   .video iframe{
+      width: 300px;
+      height: 169px;
+   }
+}
 
 @media (min-width: 720px){
 
@@ -673,7 +688,6 @@ footer .right {
    .what-to-expect{
    padding: 30px;
    }
-}
 
 @media (min-width: 940px){
    .title-h2 .about-me__social-media {
@@ -683,4 +697,5 @@ footer .right {
       justify-content: space-around;
    }
 
+}
 }
