@@ -282,7 +282,6 @@ header img {
    width: 100%;
    background-color: #A6449F;
    position: relative;
-   width: 100%;
    min-width: 320px;
    height: auto;
    padding: 20px 10px;;
@@ -312,7 +311,6 @@ header img {
    font-size: 2.4rem;
    font-weight: bold;
    line-height: 2.6rem;
-   color: var(--just-white);
 }
 
 .product-detail--title p{
@@ -365,26 +363,6 @@ header img {
    background-repeat: no-repeat;
 }
 
-.letter-of-benefits .excel{
-   display: inline-block;
-   width: 32px;
-   height: 32px;
-   margin-bottom: 10px;
-   background-image: url("iconos/iconosSVG/icons8-ms-excel-48.png");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-.letter-of-benefits .live{
-   display: inline-block;
-   width: 32px;
-   height: 32px;
-   margin-bottom: 10px;
-   background-image: url("iconos/iconosSVG/icons8-live-video-on-100.png");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
 .letter-of-benefits .chat{
    display: inline-block;
    width: 32px;
@@ -395,8 +373,6 @@ header img {
    background-position: center;
    background-repeat: no-repeat;
 }
-
-
 .letter-of-benefits .benefit-title{
    margin-bottom: 15px;
    font-size: 1.8rem;
@@ -492,16 +468,18 @@ header img {
 
 .opinions .opinions__card{
    border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
    background-color: #A6449F;
    margin: 15px;
-   padding: 15px;
+   padding: 15px 5px;
    width: 300px;
-   height: 400px;
+   height: 520px;
    display: flex;
    flex-direction: column;
    align-items: center;
    font-size: 14px;
    color: beige;
+   text-align: justify;
 }
 .opinions .opinions__card h4{
    font-size: 20px;
@@ -515,6 +493,115 @@ header img {
 
 .opinions .opinions__card .opinions__card-text{
    padding: 15px;
+}
+
+.main-bonus-detail{
+   margin: 10px 0;
+   width: 100%;
+   background-color: var(--verde-opaco);
+   position: relative;
+   min-width: 320px;
+   height: auto;
+   padding: 20px 10px;;
+}
+.bonus{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.bonus-detail--title{
+   background-color: #255953;
+   padding: 15px;
+   width: 100%;
+   min-width: 288px;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 25px;
+   text-align: center;
+  
+}
+.bonus-detail--title h2{
+   margin-bottom: 20px;
+   font-size: 2.8rem;
+   font-weight: bold;
+   line-height: 2.6rem;
+   color: var(--white);
+   padding-bottom: 10px;
+   border-bottom: 2px solid beige;
+}
+.bonus-detail--title p{
+   margin-bottom: 20px;
+   font-size: 2rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #FFF7D9;
+   letter-spacing: 2px;
+   
+}
+.bonus-card{
+   width: 90%;
+   min-width: 288px;
+   max-width: 300px;
+   height: 325px;
+   margin: 15px auto;
+   padding: 15px;
+   background-color: var(--morado-fuerte);
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.bonus-card .excel{
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+   margin-bottom: 10px;
+   background-image: url("iconos/iconosSVG/icons8-ms-excel-48.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.bonus-card .live{
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+   margin-bottom: 10px;
+   background-image: url("iconos/iconosSVG/icons8-live-video-on-100.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.bonus-card .book{
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+   margin-bottom: 10px;
+   background-image: url("iconos/iconosSVG/icons8-storytelling-48.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.bonus-card .brochure{
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+   margin-bottom: 10px;
+   background-image: url("iconos/iconosSVG/icons8-curriculum-64.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.bonus-card .bonus-title{
+   margin-bottom: 15px;
+   font-size: 1.8rem;
+   font-weight: bold;
+   line-height: 1.8rem;
+   color: var(--white);
+}
+
+.bonus-card .bonus-contain{
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: var(--beige);
 }
 
 footer {
@@ -597,10 +684,3 @@ footer .right {
    }
 
 }
-
-
-
-
-
-
-
