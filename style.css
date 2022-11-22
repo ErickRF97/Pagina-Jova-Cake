@@ -91,6 +91,26 @@ header img {
    flex-wrap: wrap;
 }
 
+.black-friday{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.black-friday figure{
+    text-align: center;
+}
+
+.black-friday img{
+    width: 100%;
+    margin: 10px 0;
+   max-width: 700px;
+   max-height: 500px;
+   align-self: center;
+   justify-content: center;
+   text-align: center;
+}
+
 .title-h1 {
    text-align: center;
    justify-content: center;
@@ -137,7 +157,9 @@ header img {
    justify-content: center;
    align-content: space-around;
 }
-
+.title-h2 .icons-container a{
+   text-decoration: none;
+}
 .for-who{
    background-color: var(--beige);
    border-radius: 15px;
@@ -410,6 +432,51 @@ header img {
    display: flex;
    justify-content: center;
 }
+
+
+.cointain-course {
+   width: 70%;
+   /* background-color: #f1f1f1; */
+    margin: 0 auto;	
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .5);
+ 
+ }
+
+ .cointain-course h3 {
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 12px;
+ }
+ 
+ .cointain-course section p {
+   overflow: hidden;
+   max-height: 0;
+   text-align: justify;
+   background: var(--morado-fuerte);
+   color: antiquewhite;
+   font-size: 12px;
+   margin: 10px;
+   /* transition: all 0.2s ease-in; */
+ }
+ 
+ .cointain-course section a {
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   display: block;
+   text-align: left;
+   padding: 25px;
+   
+   background-color: #212121;
+   border-bottom: 2px solid gray;
+   color: white;
+ }
+ 
+ .cointain-course section:target p {
+   max-height: 120px;
+   padding: 10px;
+ } 
 .how-do{
    display: flex;
    width: 95%;
