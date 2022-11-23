@@ -443,21 +443,29 @@ header img {
  }
 
  .cointain-course h3 {
+   margin: 12px;
    font-size: 24px;
    font-weight: bold;
    text-align: center;
-   margin-bottom: 12px;
+
  }
  
- .cointain-course section p {
+ .cointain-course section ul {
    overflow: hidden;
    max-height: 0;
    text-align: justify;
    background: var(--morado-fuerte);
-   color: antiquewhite;
    font-size: 12px;
    margin: 10px;
    /* transition: all 0.2s ease-in; */
+ }
+ .cointain-course section ul li{
+   color: antiquewhite;
+   overflow: hidden;
+   padding-left: 36px;
+   font-size: 16px;
+   font-weight: 500;
+  
  }
  
  .cointain-course section a {
@@ -467,14 +475,13 @@ header img {
    display: block;
    text-align: left;
    padding: 25px;
-   
    background-color: #212121;
    border-bottom: 2px solid gray;
    color: white;
  }
  
- .cointain-course section:target p {
-   max-height: 120px;
+ .cointain-course section:target ul {
+   max-height: 260px;
    padding: 10px;
  } 
 .how-do{
@@ -640,7 +647,7 @@ header img {
    width: 48px;
    height: 48px;
    margin-bottom: 10px;
-   background-image: url("iconos/iconosSVG/icons8-live-video-on-100.png");
+   background-image: url("iconos/iconosSVG/icons8-bonus-64.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -679,6 +686,54 @@ header img {
    line-height: 1.8rem;
    color: var(--beige);
 }
+
+.faq {
+   width: 80%;
+   margin: 0 auto;
+   /* background-color: #f1f1f1; */
+    /* margin: auto; */	
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .5);
+ 
+ }
+
+ .faq h3 {
+   margin: 12px;
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+
+ }
+ 
+ .faq section p {
+   overflow: hidden;
+   max-height: 0;
+   text-align: justify;
+   background: #e4e4e4;
+   font-size: 16px;
+   transition: all 0.2s ease-in;
+ }
+ 
+ .faq section a {
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 16px;
+   background-color: #212121;
+   border-bottom: 2px solid gray;
+   color: white;
+ }
+ 
+ .faq section:target p {
+   max-height: 120px;
+   padding: 10px;
+ }
+ .faq .dudas{
+   font-size: 18px;
+   margin-bottom: 16px;
+   margin-left: 12px;
+ }
 
 footer {
    display: flex;
